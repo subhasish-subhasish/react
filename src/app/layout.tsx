@@ -3,6 +3,8 @@ import Footer from "../components/Footer";
 import "./globals.css";
 
 import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
+
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -15,7 +17,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body className="min-h-screen flex flex-col">
         <Header />
-        <main className="flex-1">{children}</main>
+        <main className="flex-1">{children}
+          <SpeedInsights />
+          <Analytics />
+        </main>
         <Footer />
       </body>
     </html>
