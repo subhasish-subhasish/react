@@ -41,7 +41,7 @@ const Hero = () => (
     <section id="hero" className="min-h-screen flex items-center bg-gray-900 text-white">
         <div className="container mx-auto px-6 text-center">
             <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-4">
-                Hi, I'm <span className="text-indigo-400">{portfolioData.name}</span>
+                {"Hi, I'm "}<span className="text-indigo-400">{portfolioData.name}</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">{portfolioData.title}</p>
             <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">{portfolioData.about}</p>
