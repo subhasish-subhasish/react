@@ -1,7 +1,9 @@
 'use client'
 import { useState } from "react";
 import { GithubIcon, LinkedinIcon, MailIcon, PhoneIcon, XIcon, MenuIcon } from "@/components/Icons";
+import { AuthPortal } from "@/components/Form";
 import portfolioData from "@/data/data.json" assert { type: "json" };
+
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -61,7 +63,7 @@ const Hero = () => (
 const Education = () => (
   <section id="education" className="py-20 bg-gray-800 text-white">
     <div className="container mx-auto px-6">
-      <h2 className="text-4xl font-bold text-center mb-12">My Education</h2>
+      <h2 className="text-4xl font-bold text-center mb-12">{"My Education"}</h2>
       <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-1 gap-8">
         {/* We map over the education data to create a card for each entry */}
         {portfolioData.education.map((edu, index) => (
@@ -175,6 +177,7 @@ export default function App() {
         <Projects />
         <Skills />
         <Contact />
+        <AuthPortal />
       </main>
     </div>
   );
