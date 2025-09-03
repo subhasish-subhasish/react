@@ -1,8 +1,7 @@
 'use client'
 import { useState } from "react";
 import { GithubIcon, LinkedinIcon, MailIcon, PhoneIcon, XIcon, MenuIcon } from "@/components/Icons";
-import portfolioData from "../../data/data.json";
-
+import portfolioData from "@/data/data.json" assert { type: "json" };
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
