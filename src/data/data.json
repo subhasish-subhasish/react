@@ -1,0 +1,87 @@
+{
+  "name": "Subhasish Das",
+  "title": "M.Sc Tech Engineering Physics",
+  "contact": {
+    "email": "subhasishphysics@email.com",
+    "studentEmail": "sd23phclr49@student.nitw.ac.in",
+    "phone": "+91-7029847241",
+    "github": "https://github.com/your-github-profile",
+    "linkedin": "https://linkedin.com/in/your-linkedin-profile"
+  },
+  "education": [
+    {
+      "institution": "National Institute Of Technology, Warangal",
+      "degree": "M.Sc Tech Electronics",
+      "year": "2026",
+      "grade": "CGPA: 8.2"
+    },
+    {
+      "institution": "Prabhat Kumar College, Contai",
+      "degree": "B.Sc Physics, Vidyasagar University",
+      "year": "2022",
+      "grade": "CGPA: 8.79"
+    },
+    {
+      "institution": "Pichhabani Bani Niketan High School",
+      "degree": "West Bengal Council of Higher Secondary Education",
+      "year": "2019",
+      "grade": "Percentage: 86.8"
+    }
+  ],
+  "internships": [
+    {
+      "company": "Indian Institute of Science (IISc)",
+      "role": "Research Intern",
+      "date": "May 2024 - July 2024",
+      "location": "Bengaluru, India",
+      "description": "Worked on Markov Chain Monte Carlo (MCMC) simulations to model and validate molecular dynamics, enhancing computational efficiency and physical accuracy in complex molecular systems."
+    },
+    {
+      "company": "Space Applications Centre (ISRO)",
+      "role": "Summer Intern",
+      "date": "May 2025 - July 2025",
+      "location": "Ahmedabad, India",
+      "description": "Integrated custom IP and built a complete SoC on Zynq-7000 FPGA using Xilinx Vivado and Vitis, for high-performance embedded processing. Learned about on-chip communication, IP integration, and designing a complete SOC using a softcore processor."
+    }
+  ],
+  "projects": [
+    {
+      "title": "STM32 Peripheral Driver Development",
+      "date": "July 2025",
+      "description": "Developed custom GPIO, SPI, USART, and I2C drivers for the STM32F4 microcontroller family. Configured GPIOs and wrote APIs for serial communication protocols.",
+      "link": "#",
+      "tags": ["STM32", "GPIO", "SPI", "USART", "I2C"]
+    },
+    {
+      "title": "IoT-Based Temperature & Humidity Monitoring System",
+      "date": "Feb 2025",
+      "description": "Built a real-time sensor data logging system using ESP32, DHT11, and Firebase Realtime Database. Interfaced DHT11 with ESP32 to collect and transmit sensor data to the cloud.",
+      "link": "#",
+      "tags": ["ESP32", "DHT11", "Firebase"]
+    },
+    {
+      "title": "12-Hour Digital Clock on FPGA (Artix-7)",
+      "date": "Mar 2025",
+      "description": "Designed and implemented a modular digital clock using SystemVerilog on an Artix-7 FPGA. Developed timekeeping logic, simulated the design in Vivado, and validated on-board.",
+      "link": "#",
+      "tags": ["Verilog", "FPGA", "SystemVerilog"]
+    }
+  ],
+  "skills": {
+    "languages": "C, C++ (OOPS), Python, Verilog, System Verilog",
+    "developerTools": "Vivado, Vitis, ModelSim, STM32 Cube IDE, NI Multisim, Platform Io, Arduino IDE, MATLAB",
+    "hardware": "STM32 Micro-controller, FPGA, 8051 Micro-controller, Arduino, ESP32",
+    "protocols": "I2C, SPI, UART, CAN, AMBA, TCP/IP",
+    "os": "Windows, Linux, Git and GitHub",
+    "softSkills": "Critical thinking, Problem Solving, Teamwork"
+  },
+  "interests": "Embedded System Design, ASIC and FPGA, Hardware and Software co-design based on FPGA, Internet of Things",
+  "certifications": [
+    "Mastering Microcontroller and Embedded Driver Development (Udemy, 2025)",
+    "Embedded System Design With ARM (NPTEL, 2024)",
+    "Verification using System-verilog (Udemy, 2025)"
+  ],
+  "achievements": [
+    "Qualified GATE ECE 2025 (Gate Score 436)"
+  ]
+}

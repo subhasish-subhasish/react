@@ -1,10 +1,19 @@
 // src/components/Footer.tsx
 // src/components/Footer.tsx
-export default function Footer() {
-  return (
-    <footer id="contact" className="bg-gray-800 text-gray-200 text-center p-4">
-      <p>📧 subhasishphysics@email.com | 📧 sd23phc1r49@student.nitw.ac.in</p>
-      <p className="mt-2">© {new Date().getFullYear()} Subhasish Das</p>
+import portfolioData from "../data/data.json";
+import { GithubIcon, LinkedinIcon, MailIcon } from "@/components/Icons";
+
+export const Footer = () => (
+    <footer className="bg-gray-900 text-gray-400 py-6">
+        <div className="container mx-auto px-6 text-center">
+             <div className="flex justify-center items-center space-x-6 mb-4">
+                <a href={portfolioData.contact.github} target="_blank" rel="noopener noreferrer"><GithubIcon /></a>
+                <a href={portfolioData.contact.linkedin} target="_blank" rel="noopener noreferrer"><LinkedinIcon /></a>
+                <a href={`mailto:${portfolioData.contact.email}`}><MailIcon /></a>
+            </div>
+            <p>&copy; {new Date().getFullYear()} {portfolioData.name}. All Rights Reserved.</p>
+        </div>
     </footer>
-  );
-}
+);
+
+export default Footer;
