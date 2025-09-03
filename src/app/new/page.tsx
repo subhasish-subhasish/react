@@ -153,7 +153,7 @@ const Contact = () => (
             <h2 className="text-3xl font-bold text-center mb-10">Get In Touch</h2>
             <div className="max-w-lg mx-auto text-center">
                 <p className="text-lg text-gray-400 mb-8">
-                    I'm currently open to new opportunities and collaborations. Feel free to send me a message!
+                    {"I'm currently open to new opportunities and collaborations. Feel free to send me a message!"}
                 </p>
                 <a href={`mailto:${portfolioData.contact.email}`} className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105">
                     Say Hello

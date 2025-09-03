@@ -54,7 +54,7 @@ const ContactForm = () => {
                 <h2 className="text-3xl font-bold text-center mb-10">Get In Touch</h2>
                 <div className="max-w-2xl mx-auto">
                     <p className="text-center text-lg text-gray-400 mb-8">
-                        I'm currently open to new opportunities. Have a question or want to work together?
+                        {"I'm currently open to new opportunities. Have a question or want to work together?"}
                     </p>
                     
                     {/* The Contact Form */}
