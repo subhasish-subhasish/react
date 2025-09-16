@@ -6,8 +6,8 @@
     "email": "subhasishphysics@email.com",
     "studentEmail": "sd23phclr49@student.nitw.ac.in",
     "phone": "+91-7029847241",
-    "github": "https://github.com/your-github-profile",
-    "linkedin": "https://linkedin.com/in/your-linkedin-profile"
+    "github": "https://github.com/subhasish-subhasish",
+    "linkedin": "https://www.linkedin.com/in/subhasishsubhasish"
   },
   "education": [
     {
@@ -50,7 +50,7 @@
       "title": "STM32 Peripheral Driver Development",
       "date": "July 2025",
       "description": "Developed custom GPIO, SPI, USART, and I2C drivers for the STM32F4 microcontroller family. Configured GPIOs and wrote APIs for serial communication protocols.",
-      "link": "#",
+      "link": "https://github.com/subhasish-subhasish/stm32f401reDriver",
       "tags": ["STM32", "GPIO", "SPI", "USART", "I2C"]
     },
     {
